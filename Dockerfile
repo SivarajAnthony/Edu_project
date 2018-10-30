@@ -1,7 +1,7 @@
 FROM devopsedu/webapp
  
-ADD https://github.com/SivarajAnthony/Edu_project.git /home/edureka
+ADD proj /var/www/html
 
-EXPOSE 8001
+RUN rm /var/www/html/index.html
 
-CMD ["/bin/bash"]
+CMD apachectl -D FOREGROUND 
