@@ -1,4 +1,4 @@
 <?php
-require 'config.php';
-require 'functions.php';
+require 'Config.php';
+require 'Functions.php';
 run();
