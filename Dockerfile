@@ -2,8 +2,6 @@ FROM php:7.0-apache
 
 ADD samplephp /var/www/html
 
-RUN rm /var/www/html/index.html
-
 EXPOSE 8081
 EXPOSE 8001
 
